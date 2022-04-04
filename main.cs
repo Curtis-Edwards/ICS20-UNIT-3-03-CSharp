@@ -14,7 +14,7 @@ class Program
         Console.Write("radius: ");
         radius = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("");
-        volume =  1.3333 * Math.PI * radius * radius * radius;
+        volume = 1.3333 * Math.PI * radius * radius * radius;
 
         Console.WriteLine("Area: " + volume.ToString("0.00") + "cm³");
 
